@@ -1,0 +1,34 @@
+body{
+    background-color: #795F4D;
+}
+.content-main{
+    display: flex;
+    gap: 15px;
+    padding: 15px 100px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.campo_pesquisa{
+    padding: 15px 100px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao_pesquisa{
+    background-color: #b19886;
+    height: 30px;
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.botao_pesquisa:focus {
+    outline: 1px solid #795F4D;  
+   }
+.botao_pesquisa.visited {
+    outline: 1px solid #795F4D;   
+}
