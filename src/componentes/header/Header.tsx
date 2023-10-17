@@ -1,10 +1,11 @@
 import './Header.css'
 import Link from './../link/Link'
+import imagem from './../img/Jaqueline.png'
 function Header(){
     return(
         <header>
             <div>
-                <img id = "logoheader" src="/src/img/Jaqueline.png" alt="" />
+            <div className="imagem"><img src={imagem}/></div>
             </div>
             <nav>
                 <ul>
