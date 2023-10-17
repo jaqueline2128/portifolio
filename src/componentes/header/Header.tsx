@@ -1,11 +1,11 @@
 import './Header.css'
 import Link from './../link/Link'
-import imagem from './../img/Jaqueline.png'
+import logo from './../img/Jaqueline.png'
 function Header(){
     return(
         <header>
             <div>
-            <div className="imagem"><img src={imagem}/></div>
+            <div className="logo"><img src={logo}/></div>
             </div>
             <nav>
                 <ul>
