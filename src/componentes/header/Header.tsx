@@ -1,5 +1,5 @@
 import './Header.css'
-import Link from './../link/Link'
+import LinkNav from './../linknav/LinkNav'
 import logo from './../img/Jaqueline.png'
 function Header(){
     return(
@@ -10,16 +10,16 @@ function Header(){
             <nav>
                 <ul>
                     <li>
-                        <Link texto='Home'/>
+                        <LinkNav url='/home' texto='Home'/>
                     </li>
                     <li>
-                        <Link texto='Notícia'/>
+                        <LinkNav url='/noticia' texto='Notícia'/>
                     </li>
                     <li>
-                        <Link texto='Sobre'/>
+                        <LinkNav url='/sobre' texto='Sobre'/>
                     </li>
                     <li>
-                        <Link texto='Contato'/>
+                        <LinkNav url='/contato' texto='Contato'/>
                     </li>
                 </ul>
             </nav>
