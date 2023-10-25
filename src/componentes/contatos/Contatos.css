@@ -9,7 +9,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #2B2B2B;
+    background-color: #573c28;
     padding: 25px;
     border-radius: 25px;
     
@@ -61,7 +61,7 @@
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 10px;
-    color: white;
+    color: black;
 }
 .titulo{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
